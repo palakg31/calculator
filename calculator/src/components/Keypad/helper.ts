@@ -32,8 +32,8 @@ const leftKeys=[
 ];
 
 const rightKeys=[
-    {label:'C',operation:'C'},
-    {label:'back',operation:'back'},
+    {label:'C',operation:'Cancel'},
+    {label:'back',operation:'delete'},
     {label:'%',operation:'%'},
     {label:'+',operation:'+'},
     {label:'7',operation:'7'},

@@ -15,7 +15,7 @@ interface KeyProps{
 const Key:React.FC<KeyProps>=({block,color,onClick})=>{
     return(
         <button className={`key-wrapper ${color}`} onClick={()=>onClick(block.operation)}>
-            <div className='key-label'>{block.label}</div>
+            {block.label}
         </button>
     )
 }
