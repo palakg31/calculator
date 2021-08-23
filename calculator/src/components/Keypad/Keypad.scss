@@ -1,0 +1,16 @@
+.keypad-wrapper{
+    display: flex;  
+    align-items: baseline;
+    .keypad-left{
+        display: flex;
+        column-count: 6;
+        flex-wrap: wrap;
+        width: 48%;
+    }
+    .keypad-right{
+        display: flex;
+        column-count: 4;
+        flex-wrap: wrap;
+        width: 33%;
+    }
+}

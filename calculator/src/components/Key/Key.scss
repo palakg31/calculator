@@ -1,0 +1,32 @@
+.key-wrapper{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 60px;
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.light-blue{
+    background-color: skyblue;
+    color: white;
+}
+
+.blue{
+    background-color: darkcyan;
+    color: white;
+}
+
+.grey{
+    background-color: grey;
+    border: 1px solid white;
+    color: black;
+}
+
+
+

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  width:900px;
+  .display {
+    display: flex;
+    width: calc(100% - 208px);
+    background-color: darkgrey;
+    color: black;
+    height: 150px;
+    font-size: 30px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 10px;
+  }
+}
