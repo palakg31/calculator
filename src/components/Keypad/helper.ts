@@ -23,7 +23,7 @@ const leftKeys=[
     {label:'cos',operation:'cos'},
     {label:'Y^x',operation:'Y^x'},
     {label:'10^x',operation:'powerOf10'},
-    {label:'Deg',operation:'Deg'},
+    {label:'Deg',operation:'degree',togledLabel:'Rad'},
     {label:'tanh',operation:'tanh'},
     {label:'sinh',operation:'sinh'},
     {label:'cosh',operation:'cosh'},

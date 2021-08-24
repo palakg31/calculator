@@ -7,6 +7,7 @@ function App() {
   const [displayString, setdisplayString] = useState("");
 
   const performOperation = (key: any) => {
+    if(key.operation==='degree')
     try {
       if (key.operation === "default")
         setdisplayString((prev) => prev + key.label);
